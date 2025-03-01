@@ -1,8 +1,9 @@
-name: Deploy Hugo site to Pages
+name: afrodeals with hugo
 
 on:
   push:
-    branches: ["main"]
+    branches: [ "main", "dev" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -18,8 +19,18 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: 
+      name: ${{ github.ref == 'refs/heads/main' && 'main' || 'dev' }}
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -34,10 +45,14 @@ jobs:
           hugo version
 
       - name: Build Site
-        run: hugo --gc --minify
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
@@ -50,4 +65,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
