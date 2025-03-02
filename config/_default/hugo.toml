@@ -1,10 +1,10 @@
 ######################## default configuration ####################
 baseURL = "https://yooman00.github.io/afrodeals2/"
-languageCode = "en"
-title = "Hargo | Hugo Ecommerce Site"
+languageCode = "de"
+title = "Afrodeals Ecommerce Site"
 theme = "hargo-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+timeZone = "Europe/Berlin"
 # post pagination
 pagination.pagerSize = 10 # see https://gohugo.io/extras/pagination/
 # post excerpt
@@ -107,7 +107,7 @@ location = "Frankfurt, Germany"
 copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
-currencySymbol = "$"
+currencySymbol = "€"
 
 # Preloader
 [params.preloader]
