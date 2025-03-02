@@ -1,8 +1,9 @@
 {{ define "main" }}
 
 <!-- banner -->
-{{ if site.Data.homepage.banner.enable }}
-{{ with site.Data.homepage.banner }}
+{{ $data := index site.Data site.Language.Lang }}
+{{ if $data.homepage.banner.enable }}
+{{ with $data.homepage.banner }}
 <section class="section-sm">
   <div class="container">
     <div class="row justify-content-between align-items-center">
@@ -44,8 +45,8 @@
 <!-- /banner -->
 
 <!-- about -->
-{{ if site.Data.homepage.about.enable }}
-{{ with site.Data.homepage.about }}
+{{ if $data.homepage.about.enable }}
+{{ with $data.homepage.about }}
 <section class="section">
   <div class="container">
     <div class="row justify-content-around align-items-center">
@@ -63,13 +64,13 @@
 {{ end }}
 <!-- /about -->
 
-{{ if site.Data.homepage.cta.enable }}
+{{ if $data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
 {{ end }}
 
 <!-- material -->
-{{ if site.Data.homepage.material.enable }}
-{{ with site.Data.homepage.material }}
+{{ if $data.homepage.material.enable }}
+{{ with $data.homepage.material }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
@@ -98,8 +99,8 @@
 <!-- /material -->
 
 <!-- advantage -->
-{{ if site.Data.homepage.advantage.enable }}
-{{ with site.Data.homepage.advantage }}
+{{ if $data.homepage.advantage.enable }}
+{{ with $data.homepage.advantage }}
 <section class="section pb-0">
   <div class="container">
     <div class="row align-items-center">
@@ -123,8 +124,8 @@
 <!-- /advantage -->
 
 <!-- promo video -->
-{{ if site.Data.homepage.video.enable }}
-{{ with site.Data.homepage.video }}
+{{ if $data.homepage.video.enable }}
+{{ with $data.homepage.video }}
 <section class="section pb-0">
   <div class="container">
     <div class="row align-items-center justify-content-between">
@@ -157,12 +158,12 @@
 <!-- /promo video -->
 
 <!-- products -->
-{{ if site.Data.homepage.products.enable }}
+{{ if $data.homepage.products.enable }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        {{ with site.Data.homepage.products }}
+        {{ with $data.homepage.products }}
         <h2>{{ .title | markdownify }}</h2>
         {{ end }}
       </div>
@@ -171,7 +172,7 @@
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
-            {{ partial "image.html" (dict "Src" .image "Alt" .Title  "Class" "card-img-top") }}
+            {{ partial "image.html" (dict "Src" .image "Alt" .Title "Class" "card-img-top") }}
             {{ end }}
           </a>
           <div class="card-body">
@@ -185,8 +186,9 @@
             </div>
             <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
               data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
-              Add to cart
+              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}"
+              data-item-description="{{ .Description }}">
+              {{i18n `add_to_chart`}}
             </button>
           </div>
         </div>
@@ -199,8 +201,8 @@
 <!-- /products -->
 
 <!-- testimonial -->
-{{ if site.Data.homepage.testimonial.enable }}
-{{ with site.Data.homepage.testimonial }}
+{{ if $data.homepage.testimonial.enable }}
+{{ with $data.homepage.testimonial }}
 <section class="section">
   <div class="container">
     <div class="row">
@@ -235,7 +237,7 @@
 {{ end }}
 <!-- /testimonial -->
 
-{{ if site.Data.homepage.cta.enable }}
+{{ if $data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
 {{ end }}
 

@@ -1,0 +1,15 @@
+- id: important_link
+  translation: Wichtige Links
+- id: connect_us
+  translation: Uns kontaktieren
+- id: connect_us_name
+  translation: Ihr Name
+- id: connect_us_email
+  translation: Ihre Email
+- id: connect_us_message
+  translation: Ihre Nachricht
+- id: connect_us_send
+  translation: Abschicken
+- id: add_to_chart
+  translation: In den Einkaufswagen
+

@@ -2,3 +2,13 @@
   translation: Important Links
 - id: connect_us
   translation: Connect With Us
+- id: connect_us_name
+  translation: Your Name
+- id: connect_us_email
+  translation: Your Email
+- id: connect_us_message
+  translation: Your Message
+- id: connect_us_send
+  translation: Send Now
+- id: add_to_chart
+  translation: Add To Cart

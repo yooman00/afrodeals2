@@ -18,7 +18,7 @@ banner:
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
+  title : "Über unsere Produkte"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
           clita kasd gubergren,"
@@ -28,7 +28,7 @@ about:
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
+  title : "Kaufen Sie eine Taba-Creme und erhalten Sie eine gratis dazu"
   content : "Available for limited time only. Grab one while you still can!"
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
@@ -39,7 +39,7 @@ cta:
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
+  title : "Inhaltsstoffe unserer Produkte"
   subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dol."
   materialItem:

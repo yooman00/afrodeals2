@@ -1,5 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://yooman00.github.io/afrodeals2/"
+defaultContentLanguage = 'de'
 languageCode = "de"
 title = "Afrodeals Ecommerce Site"
 theme = "hargo-hugo"
@@ -104,7 +105,7 @@ mobile = "0124857985320"
 email = "yoo-man00@hotmail.com"
 location = "Frankfurt, Germany"
 # copyright
-copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
+copyright = "| Copyright &copy; 2025 [Afrodeals](https://yooman00.github.io/afrodeals2/) All Rights Reserved |"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
 currencySymbol = "€"
