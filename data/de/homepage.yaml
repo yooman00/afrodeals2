@@ -8,8 +8,8 @@ banner:
   # button
   button:
     enable : true
-    label : "All Products"
-    link : "products/"
+    label : "Alle Produkte"
+    link : "Produkte/"
   # demo video
   video:
     enable : true

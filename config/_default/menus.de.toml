@@ -2,7 +2,7 @@
 ############################## navigation ##############################
 [[main]]
 name = "Produkte"
-URL = "produkte/"
+URL = "products/"
 weight = 1
 
 [[main]]
@@ -17,13 +17,13 @@ weight = 3
 
 [[main]]
 name = "Kontakt"
-URL = "kontakt/"
+URL = "contact/"
 weight = 4
 
 ############# footer menu #############
 [[footer]]
 name = "Produkte"
-URL = "produkte/"
+URL = "products/"
 weight = 1
 
 [[footer]]
@@ -38,10 +38,10 @@ weight = 3
 
 [[footer]]
 name = "Allgemeine Geschäftsbedingungen"
-URL = "agb/"
+URL = "terms-conditions/"
 weight = 4
 
 [[footer]]
 name = "Kontakt"
-URL = "kontakt/"
+URL = "Contact/"
 weight = 5

@@ -12,4 +12,5 @@
   translation: Abschicken
 - id: add_to_chart
   translation: In den Einkaufswagen
-
+- id: watch_video
+  translation: Video Ansehen
