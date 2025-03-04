@@ -29,7 +29,7 @@ about:
 cta:
   enable : true
   title : "Kaufen Sie eine Taba-Creme und erhalten Sie eine gratis dazu"
-  content : "Available for limited time only. Grab one while you still can!"
+  content : "Nur für begrenzte Zeit verfügbar. Schnapp dir eins, solange du noch kannst!"
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
   button:
@@ -66,23 +66,23 @@ material:
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Advantages Of Using <br> Our Product"
+  title : "Vorteile der Verwendung unseres Produkts"
   subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
   image : "images/advantage.png"
   advantageList:
     # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
+    - listItem : "Extrem leicht"
+    - listItem : "Hervorragende Atmungsaktivität"
+    - listItem : "Kann die Zellaktivierung erhöhen"
+    - listItem : "Strahlende Haut in 7 Tagen"
+    - listItem : "Zunehmender Glanz des Gesichts"
+    - listItem : "Schönere Gesichtshaut"
 
 
 ######################## Promo Video ##########################
 video:
   enable : true
-  title : "How To Use This Product?"
+  title : "Wie verwende ich dieses Produkt?"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
   videoThumb : "images/video-thumb.jpg"
@@ -92,14 +92,14 @@ video:
 ######################## Products #############################
 products:
   enable : true
-  title : "Products List"
+  title : "Produktliste"
   # product item comes from "content/products"
 
 
 ########################## Testimonial ########################
 testimonial:
   enable : true
-  title : "What People Are Saying <br> About Our Product"
+  title : "Was die Leute <br> über unser Produkt sagen"
   testimonialItem:
     # testimonial item loop
     - name : "Angelo Perara"
