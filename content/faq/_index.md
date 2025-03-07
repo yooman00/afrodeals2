@@ -5,6 +5,6 @@ draft: false
 description : "this is a meta description"
 ---
 
-### Frequently Asked Questions
+### Häufig gestellte Fragen
 
-Below FAQ are some common concerns of our clients before purchasing the <br> theme, if you have other questions, please just send it to demo@email.com
+Nachfolgend finden Sie in den FAQ einige häufige Anliegen unserer Kunden vor dem Kauf des <br>-Themas. Wenn Sie weitere Fragen haben, senden Sie diese einfach an dtestemo@email.com
