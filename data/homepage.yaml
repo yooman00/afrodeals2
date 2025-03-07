@@ -28,9 +28,9 @@ about:
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Kaufen Sie eine Taba-Creme und erhalten Sie eine gratis dazu"
+  title : "Kaufen Sie eine Packung Tapioca-jaune und erhalten Sie eine gratis dazu"
   content : "Nur für begrenzte Zeit verfügbar. Schnapp dir eins, solange du noch kannst!"
-  image : "images/cta.png"
+  image : "images/products/9.png"
   overlayImage : "images/cta-overlay.png"
   button:
     label : "Alle Produkte"
@@ -68,15 +68,15 @@ advantage:
   enable : true
   title : "Vorteile der Verwendung unseres Produkts"
   subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
-  image : "images/advantage.png"
+  image : "images/products/1.png"
   advantageList:
     # advantage list loop
     - listItem : "Extrem leicht"
-    - listItem : "Hervorragende Atmungsaktivität"
-    - listItem : "Kann die Zellaktivierung erhöhen"
-    - listItem : "Strahlende Haut in 7 Tagen"
-    - listItem : "Zunehmender Glanz des Gesichts"
-    - listItem : "Schönere Gesichtshaut"
+    - listItem : "Eigene Produktionen"
+    - listItem : "Eigener Import"
+    - listItem : "Lorem ipsum dolor"
+    - listItem : "Lorem ipsum dolor"
+    - listItem : "Lorem ipsum dolor"
 
 
 ######################## Promo Video ##########################
