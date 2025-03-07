@@ -1,6 +1,6 @@
 ---
 productID: "bissap-folere"
-name: "Bissap / Folere"
+title: "Bissap / Folere"
 date: 2025-03-02T11:22:16+06:00
 
 price: "3.5"

@@ -1,6 +1,6 @@
 ---
 productID: "tapioca-jaune-1kg"
-name: "Tapioca Jaune - 1Kg"
+title: "Tapioca Jaune - 1Kg"
 date: 2025-03-02T11:22:16+06:00
 
 price: "3.5"
