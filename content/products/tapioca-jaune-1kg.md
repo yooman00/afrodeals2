@@ -12,9 +12,9 @@ shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
 
 images:
   - image: "images/products/9.png"
-  - image: "images/products/product-1.png"
-  - image: "images/products/product-3.png"
-  - image: "images/products/product-4.png"
+  - image: "images/products/1.png"
+  - image: "images/products/3.png"
+  - image: "images/products/4.png"
 
 type: "products"
 ---

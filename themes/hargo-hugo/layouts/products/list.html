@@ -18,14 +18,15 @@
             <p>{{ .Params.Description }}</p>
             <div class="mb-4">
               {{ if .Params.PriceBefore }}
-              <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
+              <s>{{ .Params.PriceBefore }}{{ site.Params.currencySymbol }}</s>
               {{ end }}
-              <span class="lead text-primary">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
+              <span class="lead text-primary">{{ .Params.Price }}{{ site.Params.currencySymbol }}</span>
             </div>
             <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
               data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
-              Add to cart
+              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}"
+              data-item-description="{{ .Description }}">
+              {{i18n `add_to_cart`}}
             </button>
           </div>
         </div>

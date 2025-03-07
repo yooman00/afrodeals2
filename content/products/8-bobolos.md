@@ -13,10 +13,10 @@ description: "2 Paquets de 4 Bobolos"
 shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
 
 images:
-  - image: "images/products/2.png"
-  - image: "images/products/1.png"
-  - image: "images/products/product-3.png"
-  - image: "images/products/product-4.png"
+  - image: "images/products/1_1.png"
+  - image: "images/products/1_1.png"
+  - image: "images/products/1_1.png"
+  - image: "images/products/1_1.png"
 
 # type must be "products"
 type: "products"

@@ -9,7 +9,7 @@ banner:
   button:
     enable : true
     label : "Alle Produkte"
-    link : "Produkte/"
+    link : "products/"
   # demo video
   video:
     enable : true

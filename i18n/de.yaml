@@ -10,7 +10,13 @@
   translation: Ihre Nachricht
 - id: connect_us_send
   translation: Abschicken
-- id: add_to_chart
+- id: add_to_cart
   translation: In den Einkaufswagen
 - id: watch_video
   translation: Video Ansehen
+- id: short_description
+  translation: Kurzbeschreibung
+- id: description
+  translation: Beschreibung
+- id: reviews
+  translation: Bewertungen
